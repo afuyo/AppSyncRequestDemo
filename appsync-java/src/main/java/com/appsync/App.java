@@ -4,29 +4,13 @@ package com.appsync;
  * Hello world!
  *
  */
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.util.HashMap;
+
 import java.util.Map;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.message.BasicHeader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.module.kotlin.KotlinModule;
 import com.google.common.collect.ImmutableMap;
 
-import static com.google.common.collect.Lists.newArrayList;
+
 
 public class App {
     private static final Logger log = LoggerFactory.getLogger(App.class);
